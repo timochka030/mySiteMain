@@ -1,0 +1,38 @@
+{{! 
+  Це леяут по замовчюванню, котрий вже містить базову структуру HTML документа
+  І котрий обгортає код container файлів для будь-яких ендпоїнтів
+}}
+
+<html>
+
+  <head>
+    <title>
+      setting
+    </title>
+    <meta charset='utf-8' />
+    <link href='css/index.scss' rel='stylesheet' />
+
+    <link
+      rel='preconnect'
+      href='https://fonts.googleapis.com'
+    />
+    <link
+      rel='preconnect'
+      href='https://fonts.gstatic.com'
+      crossorigin
+    />
+    <link
+      href='https://fonts.googleapis.com/css2?family=Nova+Square&family=Open+Sans:wght@700&family=Roboto:wght@400;700&family=Rubik+Dirt&family=Single+Day&display=swap'
+      rel='stylesheet'
+    />
+  </head>
+  <header>
+
+  </header>
+  <body>
+
+    {{!  ↓  ця кострукція показує куди шаблонізатору треба вставляти код з container файлу   }}
+    {{{body}}}
+  </body>
+
+</html>
